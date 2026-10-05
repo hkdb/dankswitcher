@@ -1,0 +1,15 @@
+{
+    "id": "dankswitcher",
+    "name": "Dank Switcher",
+    "description": "GNOME-style window switcher: hold Super, tap Tab to cycle every window across all workspaces, release Super to focus it.",
+    "version": "0.1.0",
+    "author": "hkdb",
+    "type": "daemon",
+    "capabilities": ["daemon", "window-switcher"],
+    "component": "./SwitcherDaemon.qml",
+    "settings": "./SwitcherSettings.qml",
+    "icon": "swap_horiz",
+    "requires_dms": ">=1.5.0",
+    "requires": ["hyprctl"],
+    "permissions": ["settings_read", "settings_write"]
+}

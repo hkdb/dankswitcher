@@ -1,0 +1,38 @@
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.#*
+\#*\#
+*.qmlproject.user
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
+
+# Qt / QML tooling
+.qmlls.ini
+*.qmlc
+*.jsc
+.qtcreator/
+
+# Node (if logic.js ever gets tooling/tests)
+node_modules/
+
+# Claude Code
+.claude/
+CLAUDE.local.md
+
+# Crush
+.crush/
+
+# Logs / temp
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
