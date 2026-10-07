@@ -7,7 +7,7 @@ GNOME-style window switcher for [DankMaterialShell](https://github.com/AvengeMed
 
 Hold **Super**, tap **Tab** to cycle through every window on every workspace (most-recently-used order, starting on the previous window), release **Super** to focus the selected one. A quick Super+Tab tap jumps straight to the previous window. Holding Super+Tab for a moment (without pressing Tab again) and then releasing leaves the strip open in sticky mode: cycle with Tab or the arrows, confirm with Enter, a click, or another Super press-and-release; Escape or clicking outside cancels. Hyprland follows to the window's workspace.
 
-Icons only, no previews. Themed from DMS's `Theme` tokens. Pinned windows aren't listed since they're usually reached through their own shortcuts.
+Icons only, no previews. Themed from DMS's `Theme` tokens.
 
 ## Requirements
 
